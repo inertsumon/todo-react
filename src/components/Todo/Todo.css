@@ -1,0 +1,32 @@
+.todo-container {
+  border: 1px solid darkslategray;
+  width: 220px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  padding: 5px;
+}
+button {
+  margin: 5px;
+  border: 1px solid gray;
+  background-color: darkslategrey;
+  color: white;
+  border-radius: 5px;
+  padding: 6px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.link2 {
+  text-decoration: none;
+  color: black;
+  background-color: cornflowerblue;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 1px solid white;
+}
+button:hover,
+.link2:hover,
+.todo-container:hover {
+  box-shadow: 5px 5px 5px gray;
+}
